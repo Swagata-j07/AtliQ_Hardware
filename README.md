@@ -104,7 +104,9 @@ This project includes sales data for analysis. Download the dataset:
 ## Usage
 
 1️⃣ Open the Power BI dashboard (Customer_Performance.pbix), (Market_Performance.pbix).
+
 2️⃣ Apply filters to analyze trends in customer sales, market performance, and profitability.
+
 3️⃣ Use SQL queries to extract key insights:
 ```
 -- Calculate YoY growth for each customer
