@@ -114,4 +114,12 @@ sql
      FROM customer_performance
        WHERE sales_2020 > 0
          ORDER BY YoY_growth DESC;
+```
+***
 
+## 📩 Contact & Contributions
+If you'd like to contribute, have questions, or need further insights, feel free to connect!
+
+🔗 GitHub Profile: https://github.com/Swagata-j07
+📧 Email: swagatamurmu.5@gmail.com
+💼 LinkedIn: https://www.linkedin.com/in/swagata-murmu5?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEQDwbmTkRLi2T7zXFhC%2FFw%3D%3D
