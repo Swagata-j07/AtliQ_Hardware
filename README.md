@@ -3,7 +3,9 @@
 ## 📌 Project Description
 This project analyzes customer and market performance data for AtliQ Hardwares across multiple years (2019-2021). It provides insights into sales trends, customer growth, and revenue distribution across different stores and platforms.
 
-### Sales Analysis:
+### Sales Analysis: 
+https://github.com/Swagata-j07/AtliQ_Hardware/blob/main/Customer%20Performance.pdf
+
 This report evaluates customer net sales growth (2019–2021) and customer sales performance (2019 -2021) to identify high-value customers, sales trends, and growth opportunities.
 
 ### Objective:
@@ -15,7 +17,9 @@ This report evaluates customer net sales growth (2019–2021) and customer sales
 
 **Business Impact :** Helps optimize sales strategy by focusing on high-value customers, re-engaging declining ones, tailoring marketing efforts based on purchase behavior, and forecasting future sales trends to optimize pricing
 
-### Finance Analysis:
+### Finance Analysis: 
+https://github.com/Swagata-j07/AtliQ_Hardware/blob/main/Market%20Performance.pdf
+
 This report evaluates market-wise sales trends (2019–2021) and compares actual sales with 2021 targets to assess performance and growth potential.
 
 ### Objective:
@@ -27,7 +31,9 @@ This report evaluates market-wise sales trends (2019–2021) and compares actual
 
 **Business Impact :** Helps allocate resources to high-growth markets, improve weak ones, assess performance gaps, refine sales targets, predict market trends, and optimize expansion plans.
 
-### P & L Market Analysis:
+### P & L Market Analysis: 
+https://github.com/Swagata-j07/AtliQ_Hardware/blob/main/P%20%26%20L%20Market.pdf
+
 This report analyzes market-wise profitability for fiscal years 2019, 2020 and 2021 by evaluating net sales, cost of goods sold (COGS), and gross margin % to assess financial performance.
 
 ### Objective
