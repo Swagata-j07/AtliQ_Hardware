@@ -39,6 +39,22 @@ This report analyzes market-wise profitability for fiscal years 2019, 2020 and 2
 
 **Business Impact :** Focuses on profit optimization by prioritizing high-margin markets, reducing costs in low-margin ones, adjusting pricing strategies, and investing in markets with strong financial performance.
 
+___ 
+
+###  🚀 Key Features
+
+✅ Sales Growth Analysis - Compares yearly revenue changes and trends.
+
+✅ Top Customer Insights - Identifies high-revenue customers like Amazon & Flipkart.
+
+✅ Market Trends - Highlights growing and declining customer segments.
+
+✅ Power BI Dashboard - Visual representation of key customer metrics.
+
+✅ SQL Queries - Ready-to-use SQL scripts for deeper data exploration.
+
+___
+
 
 ## 🛠 Installation  
 
@@ -57,18 +73,45 @@ This project includes sales data for analysis. Download the dataset:
 
 [Products Data (CSV)](https://github.com/Swagata-j07/AtliQ_Hardware/blob/main/dim_product.csv)
 
+[Fact_sals_monthly (CSV)](https://github.com/Swagata-j07/AtliQ_Hardware/blob/main/fact_sales_monthly.csv.gz)
 
-###  🚀 Key Features
+***
 
-✅ Sales Growth Analysis - Compares yearly revenue changes and trends.
+## 📊 Data Analysis Approach  
+- **Performed analysis using Excel**, leveraging formulas and pivot tables.
+  + Excel Formulas & Methods Used
+    * SUM() – Aggregated total net sales and costs.  
+    - Division & Subtraction – Calculated percentage growth and profit margins.  
+    + Pivot Tables – Summarized and analyzed market-wise performance trends.    
+- **Generated insights for business stakeholders** to optimize sales and profitability.  
 
-✅ Top Customer Insights - Identifies high-revenue customers like Amazon & Flipkart.
+***
 
-✅ Market Trends - Highlights growing and declining customer segments.
+## Key Insights
 
-✅ Power BI Dashboard - Visual representation of key customer metrics.
+ ✔ Amazon had the highest net sales in 2021 at $82.1M, with a 218.9% YoY growth—indicating it as the most valuable customer, followed by AtliQ Eclusive with $61.1M, securing second highest revenue-generator.
+ 
+ ✔ Key Growth Drivers: Such a significant increase could be due to bulk orders, stronger partnerships, improved demand, or strategic pricing adjustments.
+ 
+ ✔ Consistent sales growth across customers highlights strong customer retention and opportunities to expand premium offerings.
+ 
+ ✔ India ($161.3M) and the USA ($87.8M) led in total sales, but target gaps (-$9.6M and -$10.2M, respectively) indicate areas for sales strategy improvement.
+ 
+ ✔ In P & L Month Report, total net sales grew from $87.5M (2019) to $598.9M (2021) with (204.5% increase), showing strong business growth.
 
-✅ SQL Queries - Ready-to-use SQL scripts for deeper data exploration.
+ ✔ Despite sales growth, gross margin % declined (-2.3%), signaling a need to optimize costs and adjust pricing strategies.
 
 
+## Usage
+
+1️⃣ Open the Power BI dashboard (Customer_Performance.pbix), (Market_Performance.pbix).
+2️⃣ Apply filters to analyze trends in customer sales, market performance, and profitability.
+3️⃣ Use SQL queries to extract key insights:
+```
+-- Calculate YoY growth for each customer
+sql
+   SELECT customer_name, (sales_2021 - sales_2020) / sales_2020 * 100 AS YoY_growth
+     FROM customer_performance
+       WHERE sales_2020 > 0
+         ORDER BY YoY_growth DESC;
 
